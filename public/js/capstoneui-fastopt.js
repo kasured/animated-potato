@@ -2498,7 +2498,7 @@ $c_Lobservatory_Interaction2$.prototype.yearSelection__Lobservatory_Signal__Lobs
   return new $c_Lobservatory_Signal().init___F0(expr)
 });
 $c_Lobservatory_Interaction2$.prototype.availableLayers__sc_Seq = (function() {
-  return $as_sc_Seq($m_sc_Seq$().apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array([new $c_Lobservatory_Layer().init___Lobservatory_LayerName__sc_Seq__sci_Range($m_Lobservatory_LayerName$Temperatures$(), $m_Lobservatory_ColorSchema$().colorPoints$1.toSeq__sc_Seq(), new $c_sci_Range$Inclusive().init___I__I__I(2015, 2015, 1)), new $c_Lobservatory_Layer().init___Lobservatory_LayerName__sc_Seq__sci_Range($m_Lobservatory_LayerName$Deviations$(), $m_Lobservatory_ColorSchema$().colorPointsForDeviation$1.toSeq__sc_Seq(), new $c_sci_Range$Inclusive().init___I__I__I(1990, 2015, 1))])))
+  return $as_sc_Seq($m_sc_Seq$().apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array([new $c_Lobservatory_Layer().init___Lobservatory_LayerName__sc_Seq__sci_Range($m_Lobservatory_LayerName$Temperatures$(), $m_Lobservatory_ColorSchema$().colorPoints$1.toSeq__sc_Seq(), new $c_sci_Range$Inclusive().init___I__I__I(2000, 2015, 1)), new $c_Lobservatory_Layer().init___Lobservatory_LayerName__sc_Seq__sci_Range($m_Lobservatory_LayerName$Deviations$(), $m_Lobservatory_ColorSchema$().colorPointsForDeviation$1.toSeq__sc_Seq(), new $c_sci_Range$Inclusive().init___I__I__I(1990, 2015, 1))])))
 });
 $c_Lobservatory_Interaction2$.prototype.yearBounds__Lobservatory_Signal__Lobservatory_Signal = (function(selectedLayer) {
   $m_Lobservatory_Signal$();
